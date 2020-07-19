@@ -1,2 +1,2 @@
-# Flutter-BL0C-Pattern
+# Flutter block pattern
 Flutter BL0C Pattern
