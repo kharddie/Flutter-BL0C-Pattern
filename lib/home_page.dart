@@ -33,9 +33,9 @@ class HomePage extends StatelessWidget {
               onTap: () => Navigator.pushNamed(context, 'bloc_pattern'),
             ),
             ListTile(
-              leading: Icon(Icons.settings),
-              title: Text('Settings'),
-            ),
+                leading: Icon(Icons.verified_user),
+                title: Text('logIn'),
+                onTap: () => Navigator.pushNamed(context, 'login')),
           ],
         ),
       ),

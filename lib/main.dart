@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc_pattern/LoginScreen.dart';
+import 'package:flutter_bloc_pattern/Login_screen.dart';
 import 'package:flutter_bloc_pattern/bloc_pattern.dart';
 import 'package:flutter_bloc_pattern/home_page.dart';
 
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       routes: {
-        'Login': (content) => LoginScreen(),
+        'login': (content) => LoginScreen(),
         'bloc_pattern': (content) => BlocPattern(),
       },
       theme: ThemeData(
