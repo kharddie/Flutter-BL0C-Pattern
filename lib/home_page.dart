@@ -36,6 +36,11 @@ class HomePage extends StatelessWidget {
                 leading: Icon(Icons.verified_user),
                 title: Text('logIn'),
                 onTap: () => Navigator.pushNamed(context, 'login')),
+            ListTile(
+                leading: Icon(Icons.verified_user),
+                title: Text('Live Location Tracking'),
+                onTap: () =>
+                    Navigator.pushNamed(context, 'live_location_tracking')),
           ],
         ),
       ),
