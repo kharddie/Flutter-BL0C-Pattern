@@ -1,8 +1,13 @@
 import 'package:geolocator/geolocator.dart';
 import 'dart:async';
 
+import '../services/location_service.dart';
+
 class GeolocatorService {
   final Geolocator geo = Geolocator();
+  LocationService locationService = LocationService();
+  Position initPosition;
+  Position position;
 
   Stream<Position> getCurrentLocation() {
     var locationOptions =

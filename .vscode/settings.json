@@ -1,0 +1,20 @@
+{
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "editor.codeLens": false,
+    "editor.folding": true,
+    "editor.highlightActiveIndentGuide": true,
+    "editor.insertSpaces": true,
+    "editor.lightbulb.enabled": true,
+    "editor.renderIndentGuides": true,
+    "editor.overviewRulerBorder": true,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.wordWrapColumn": 999,
+    "editor.formatOnType": false,
+    "editor.wrappingIndent": "none",
+    "[dart]": {
+        "editor.rulers": [
+            0
+        ]
+    },
+}
